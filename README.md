@@ -1,2 +1,2 @@
 # QrGenerater 
-hey! I create this Qrgenerater for JS practice
+hey! I created this Qrgenerater for JS practice
