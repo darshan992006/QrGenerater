@@ -3,11 +3,6 @@ let qrImg =document.getElementById('qrImg');
 let qrText=document.getElementById('qrText');
 let submitBtn=document.getElementById('submitBtn');
 
-document.addEventListener("keypress",event =>{
-    if(event.key==="Enter"){
-        generateQR();
-    }
-});
 
 function generateQR(){
     if (qrText.value.length>0){
@@ -21,3 +16,8 @@ function generateQR(){
         }, 500);
     }
 }
+document.addEventListener("keypress",event =>{
+    if(event.key==="Enter"){
+        generateQR();
+    }
+});
